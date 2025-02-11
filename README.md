@@ -6,4 +6,4 @@
  - Uses CSS properties such as hover, transform and transition to create a much better user experience
 
 ## Installation and usage
-- To clone the repositories : 
+- To clone the repositories : https://github.com/ShwetDutta/Personal-portfolio-website.git
