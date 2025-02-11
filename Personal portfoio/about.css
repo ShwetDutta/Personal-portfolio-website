@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main img {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.content{
+    margin-left: 40%;
+    position: relative;
+    padding-top: 10px;
+    z-index: 3;
+}
+
+.content h1 {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.content p{
+    font-size: 10px;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.85;
+    margin-bottom: 30px;
+}
+
+.contact{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contact ul li{
+    list-style: none;
+    font-size: 10px;
+}
+
+.contact ul li img {
+    width: 20px;  /* Adjust size as needed */
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+nav ul li {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    list-style: none;
+    display: inline-block;
+    padding: 0 50px;
+    text-align: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+nav ul li:hover{
+    color:burlywood;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    color: burlywood;
+    transition: 0.5s;
+}
+
+.contact ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.content h1:hover{
+    color: black;
+    transform: scale(1.04);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.contact ul li:hover{
+    color: black;
+    transform: scale(1.04);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.main img:hover{
+    border: 5px solid burlywood;
+    transform: scale(1.02);
+    transition: 0.5s;
+    cursor: pointer;
+}

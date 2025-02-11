@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(circle, #1a1a1a 0%, #0f0f0f 100%);
+}
+
+.container {
+    width: 1350px;
+    max-width: 95%;
+    margin: 0 auto;
+    position: relative;
+    height: 100vh;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.menu {
+    width: 60px;
+    height: auto;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+    text-align: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+nav ul li a:hover{
+    color: #42a66c;
+    transition: 0.5s;
+}
+
+nav ul li:hover{
+    transform: scale(1.1);
+    color: #42a66c;
+    transition: 0.5s;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: #42a66c;
+    display: inline-block;
+    padding: 16px 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid #42a66c;
+    margin-right: 30px;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 1px solid #42a66c;
+    color: #42a66c;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.content{
+    margin-left: 170px;
+    position: relative;
+    padding-top: 120px;
+    z-index: 3;
+}
+
+.content h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 35px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.content p{
+    color: white;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 1.85;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: #42a66c;
+    display: inline-block;
+    padding: 16px 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #42a66c;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: #42a66c;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.middle {
+    position: absolute;
+    left: 48%;
+    top: 53%;
+    transform: translate(-50%, -50% );
+    z-index: 2;
+}
+
+.middle img {
+    height: 290px;
+    width: 290px;
+    border-radius: 50%;
+}
+
+.content h1:hover{
+    color: #42a66c;
+    transform: scale(1.01);
+    transition: 0.5s;
+    cursor: pointer;
+}
